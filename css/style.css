@@ -625,5 +625,164 @@ div.right-section > button {
 
 
 }
+
+
+@media screen and (max-width:520px) {
+
+  body{
+    height: max-content;
+    overflow: none;
+  }
+
+  nav>img[alt="actions"]{
+    height: 4vh;
+    margin-right: -8vw;
+   }
+  
+
+   nav>img[alt="logo"]{
+    height: 4vh;
+   }
+
+
+
+   
+   .intro-section {
+    width: screen;
+    height: max-content;
+    /* height: 85vh; */
+    margin: auto;
+    margin-top: 3vh;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+  .left-section {
+    width: 90vw;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 1.5vh;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+  }
+
+
+   div.left-section > h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  h3>img[alt="circles"]{
+    height: 2.1rem;
+  }
+
+
+  div.left-section > h1 {
+    /* width: 38vw; */
+    font-family: "Fredoka One";
+    font-size: 3rem;
+  
+  }
+
+  .sub-headlines > h5 {
+    margin-bottom: 0.4vh;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .sub-headline > img {
+    background-color: #fe5e35;
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+    padding: 6px;
+    position: relative;
+    top: 5px;
+    margin-right: 7px;
+  }
+
+  .text {
+    width: 82%;
+    font-size: 13px;
+    margin: 5vh 0vw;
+    color: #979797;
+  }
+
+  .right-section {
+    display: block;
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+    padding-left: 0rem;
+    gap: 3rem;
+  }
+  
+  .discount {
+    order: 3;
+    height: 95px;
+    width: 95px;
+    position: relative;
+    top: 15vh;
+    right: 60vw; 
+    z-index: 1;
+    filter: drop-shadow(3px 8px 0px #1d1c1c5b);
+  }
+
+  .discount-content {
+    color: #ffffff;
+   position: relative;
+    top: 15vh;
+    right: 15vw; 
+    z-index: 2;
+    order: 2;
+  }
+
+  .discount-content > h4 {
+    margin-left: 10px;
+    font-size: 9px;
+  }
+
+
+  .discount-content > h1 {
+    font-size: 24px;
+    /* text-align: center; */
+    font-family: "Fredoka One";
+  }
+
+  .dot{
+    height: 16px;
+    width: 16px;
+    /* border: none; */
+    border-radius: 50%;
+  }
+
+  .dots {
+    width: 90vw;
+    margin: auto;
+    padding: 0rem;
+    margin-left: -4vw;
+    margin-top: 1vh;
+    /* margin-left: -19vw;
+    margin-top: -5vh;
+    margin-bottom: -4vh;
+    gap: 4.3vw; */
+  }
+
+
+  div.right-section > button {
+    display: block;
+    margin-left: 27vw;
+    margin-top: 6vh;
+    
+
+ }
+
+  
+}
   
 
