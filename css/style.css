@@ -713,6 +713,17 @@ div.right-section > button {
     color: #979797;
   }
 
+  
+  .action-btn {
+    border-radius: 45px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 1.3vh 4.5vw;
+    color: #ffffff;
+    border: none;
+    background-color: #fe5e35;
+  }
+
   .right-section {
     display: block;
     width: 90vw;
@@ -727,8 +738,8 @@ div.right-section > button {
     height: 95px;
     width: 95px;
     position: relative;
-    top: 15vh;
-    right: 60vw; 
+    top: 10vh;
+    right: 58vw; 
     z-index: 1;
     filter: drop-shadow(3px 8px 0px #1d1c1c5b);
   }
@@ -736,8 +747,8 @@ div.right-section > button {
   .discount-content {
     color: #ffffff;
    position: relative;
-    top: 15vh;
-    right: 15vw; 
+    top: 10vh;
+    right: 14vw; 
     z-index: 2;
     order: 2;
   }
@@ -765,8 +776,8 @@ div.right-section > button {
     width: 90vw;
     margin: auto;
     padding: 0rem;
-    margin-left: -4vw;
-    margin-top: 1vh;
+    margin-left: -1vw;
+    margin-top: -4vh;
     /* margin-left: -19vw;
     margin-top: -5vh;
     margin-bottom: -4vh;
@@ -776,8 +787,8 @@ div.right-section > button {
 
   div.right-section > button {
     display: block;
-    margin-left: 27vw;
-    margin-top: 6vh;
+    margin-left: 30vw;
+    margin-top: 4vh;
     
 
  }
