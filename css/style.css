@@ -328,7 +328,7 @@ div.right-section > button {
 
 }
 
-@media screen and (min-width:1024px) and (max-width:1279px) {
+@media screen and (min-width:913px) and (max-width:1279px) {
 
 
   .nav-items {
@@ -464,6 +464,163 @@ div.right-section > button {
 
   div.right-section > button {
     margin-left: 1.7vw;
+  }
+
+
+}
+
+
+@media screen and (max-width:912px) {
+
+  body{
+    height: max-content;
+    overflow: none;
+  }
+
+  nav>img[alt="logo"]{
+    align-self: center;
+    max-width: 100%;
+    height: 4vh;
+  }
+  
+  .nav-items {
+   display: none;
+  }
+
+  nav>img[alt="actions"]{
+    height: 5vh;
+    margin-right: -4vw;
+   }
+
+   .intro-section {
+    width: screen;
+    height: fit-content;
+    /* height: 85vh; */
+    margin: auto;
+    margin-top: 3vh;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+  .left-section {
+    width: 90vw;
+    /* height: 78vh; */
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 1.5vh;
+    margin-top: 7vh;
+  }
+
+  
+  div.left-section > h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  h3>img[alt="circles"]{
+    height: 3rem;
+  }
+
+  div.left-section > h1 {
+    /* width: 38vw; */
+    font-family: "Fredoka One";
+    font-size: 3.5rem;
+  
+  }
+
+  .sub-headlines > h5 {
+    margin-bottom: 0.4vh;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .sub-headline > img {
+    background-color: #fe5e35;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    padding: 6px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+  }
+
+  .text {
+    width: 82%;
+    font-size: 15px;
+    margin: 5vh 0vw;
+    color: #979797;
+  }
+
+  .text>br{
+    display: none;
+  }
+
+  .action-btn {
+    border-radius: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1.3vh 2.5vw;
+    color: #ffffff;
+    border: none;
+    background-color: #fe5e35;
+  }
+
+  .right-section {
+    display: block;
+    width: 90vw;
+    margin: auto;
+    margin-top: -3rem;
+    padding-left: 2rem;
+    gap: 3rem;
+  } 
+
+  .headphone-div{
+    height: 55vh;
+  }
+
+  .discount {
+    order: 3;
+    height: 135px;
+    width: 135px;
+    position: relative;
+    top: 15vh;
+    right: 60vw; 
+    z-index: 1;
+    filter: drop-shadow(5px 10px 0px #1d1c1c5b);
+  }
+
+  .discount-content {
+    color: #ffffff;
+   position: relative;
+    top: 15vh;
+    right: 15vw; 
+    z-index: 2;
+    order: 2;
+  }
+
+  .dots {
+    width: 90vw;
+    margin: auto;
+    padding: 0rem;
+    margin-left: -8vw;
+    margin-top: 4vh;
+    /* margin-left: -19vw;
+    margin-top: -5vh;
+    margin-bottom: -4vh;
+    gap: 4.3vw; */
+  }
+
+  div.right-section > button {
+     display: block;
+     margin-left: 28.5vw;
+     margin-top: 4vh;
+     
+
   }
 
 
