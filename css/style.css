@@ -231,6 +231,20 @@ div.right-section > button {
 
 @media screen and (min-width:1280px) and (max-width:1500px)  {
 
+  nav>img[alt="actions"]{
+    height: 6.25vh;
+    margin-right: -3vw;
+   }
+
+   .left-section {
+    width: 60vw;
+    height: 78vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    gap: 0.3rem;
+  }
+
   div.left-section > h3 {
     font-size: 2rem;
     font-weight: 400;
@@ -313,3 +327,146 @@ div.right-section > button {
 
 
 }
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+
+
+  .nav-items {
+    font-family: "Poppins";
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 7rem;
+  }
+
+  .nav-item:hover {
+    font-family: "Poppins";
+    color: #fe5e35;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  nav>img[alt="actions"]{
+    height: 5vh;
+    margin-right: -2.5vw;
+   }
+
+
+   .left-section {
+    width: 60vw;
+    height: 78vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    gap: 0.7rem;
+  }
+
+
+  div.left-section > h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  h3>img[alt="circles"]{
+    height: 1.6rem;
+  }
+
+  div.left-section > h1 {
+    /* width: 38vw; */
+    font-family: "Fredoka One";
+    font-size: 2.8rem;
+  
+  }
+
+  .sub-headlines > h5 {
+    margin-bottom: 0.4vh;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+
+  .sub-headline > img {
+    background-color: #fe5e35;
+    height: 0.4rem;
+    width: 0.4rem;
+    border-radius: 50%;
+    padding: 6px;
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+  }
+
+  .text {
+    width: 46vw;
+    font-size: 10px;
+    margin: 5vh 0vw;
+    color: #979797;
+  }
+
+  .action-btn {
+    border-radius: 45px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 1.3vh 1.3vw;
+    color: #ffffff;
+    border: none;
+    background-color: #fe5e35;
+  }
+
+  .headphone-div {
+    background-image: url('/images/headphones.jpg');  
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 55vh;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0vw;
+    margin-top: 0vh;
+  }
+
+  .discount {
+    order: 3;
+    height: 95px;
+    width: 95px;
+    position: relative;
+    top: 15vh;
+    right: 23vw; 
+    z-index: 1;
+    filter: drop-shadow(5px 10px 0px #1d1c1c5b);
+  }
+
+  .discount-content > h1 {
+    font-size: 26px;
+    /* text-align: center; */
+    font-family: "Fredoka One";
+  }
+
+  .discount-content > h4 {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+
+  .dot{
+    height: 18px;
+    width: 18px;
+    /* border: none; */
+    border-radius: 50%;
+  }
+
+  .dots {
+    
+    margin-left: 0vw;
+  }
+
+  div.right-section > button {
+    margin-left: 1.7vw;
+  }
+
+
+}
+  
+
